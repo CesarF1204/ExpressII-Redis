@@ -1,0 +1,40 @@
+.container {
+    border: none;
+    width: 600px;
+    background-color: green;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+h2, p {
+    color: white;
+    text-align: center;
+}
+span {
+    text-decoration: underline;
+}
+a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    padding: 8px 20px;
+    width: 80px;
+    background-color: red;
+    border: none;
+    box-shadow: 3px 3px #000;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    transform: translateY(-0.3em);
+    box-shadow: 4px 4px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
